@@ -1,0 +1,1 @@
+This is my personal emacs configuration tree that inspired by [purcell/emacs.d](https://github.com/purcell/emacs.d).
