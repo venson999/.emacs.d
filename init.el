@@ -12,4 +12,5 @@
 (require 'init-python)
 (require 'init-javascript)
 
-
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
