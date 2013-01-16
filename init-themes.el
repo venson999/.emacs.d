@@ -1,5 +1,4 @@
-(require 'color-theme-sanityinc-solarized)
-(require 'color-theme-sanityinc-tomorrow)
-(color-theme-sanityinc-tomorrow-night)
+;(color-theme-sanityinc-tomorrow-night)
+(load-theme 'zenburn t)
 
 (provide 'init-themes)

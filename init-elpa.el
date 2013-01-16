@@ -18,6 +18,7 @@
 
 (require-package 'color-theme-sanityinc-solarized)
 (require-package 'color-theme-sanityinc-tomorrow)
+(require-package 'zenburn-theme)
 (require-package 'ido-ubiquitous)
 (require-package 'smex)
 
