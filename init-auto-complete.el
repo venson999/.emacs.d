@@ -1,4 +1,6 @@
-(require 'auto-complete)
+(require-package 'popup)
+(require-package 'auto-complete)
+
 (require 'auto-complete-config)
 (ac-config-default)
 (global-auto-complete-mode t)
@@ -16,3 +18,4 @@
 (add-hook 'auto-complete-mode-hook 'set-auto-complete-as-completion-at-point-function)
 
 (provide 'init-auto-complete)
+

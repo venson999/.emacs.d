@@ -1,3 +1,5 @@
+(require-package 'flymake-cursor)
+
 (setq flymake-gui-warnings-enabled nil)
 
 ;; Stop flymake from breaking when ruby-mode is invoked by mmm-mode,
@@ -11,3 +13,4 @@
        (if (and file-name (flymake-get-init-function file-name)) t nil))))
 
 (provide 'init-flymake)
+

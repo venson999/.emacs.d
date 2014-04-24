@@ -1,3 +1,9 @@
+;; package version in elpa is not up to date, manually install into ./site-lisp
+;(require-package 'pymacs)
+;(require-package 'python-mode)
+(require-package 'pyflakes)
+(require-package 'flymake-python-pyflakes)
+
 ;; python-mode
 (setq auto-mode-alist (cons '("\\.py$" . python-mode) auto-mode-alist))
 (setq interpreter-mode-alist (cons '("python" . python-mode) interpreter-mode-alist))
@@ -25,3 +31,4 @@
 (add-hook 'python-mode-hook 'flymake-python-pyflakes-load)
 
 (provide 'init-python)
+

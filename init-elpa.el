@@ -16,24 +16,5 @@
 
 (package-initialize)
 
-(require-package 'color-theme-sanityinc-solarized)
-(require-package 'color-theme-sanityinc-tomorrow)
-(require-package 'zenburn-theme)
-(require-package 'ido-ubiquitous)
-(require-package 'smex)
-
-;; package version in elpa is not up to date, manually install into ./site-lisp
-;(require-package 'pymacs)
-;(require-package 'python-mode)
-
-(require-package 'flymake-cursor)
-(require-package 'pyflakes)
-(require-package 'flymake-python-pyflakes)
-(require-package 'popup)
-(require-package 'auto-complete)
-(require-package 'yasnippet)
-(require-package 'js2-mode)
-(require-package 'magit)
-
-
 (provide 'init-elpa)
+
