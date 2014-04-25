@@ -9,7 +9,7 @@
 (require 'init-flymake)
 (require 'init-git)
 
-(require 'init-python)
+(require 'init-python-mode)
 (require 'init-javascript)
 
 (setq custom-file "~/.emacs.d/custom.el")
