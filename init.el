@@ -6,7 +6,7 @@
 (require 'init-ido)
 (require 'init-auto-complete)
 (require 'init-yasnippet)
-(require 'init-flymake)
+(require 'init-flycheck)
 (require 'init-git)
 
 (require 'init-python-mode)
